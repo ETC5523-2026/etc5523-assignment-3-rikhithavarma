@@ -1,13 +1,44 @@
+
 ---
-title: "About"
+title: "About Me"
 image: profile.jpg
 about:
   template: jolla
   links:
     - icon: github
-      text: Github
-      href: https://github.com/etc5523-2022
-
+      text: GitHub
+      href: https://github.com/RikhithaVarma
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hi! I'm Rikhitha Varma, a student at Monash University with a strong interest in data analysis, visualisation, and communicating information through meaningful stories.
+
+I enjoy exploring real world issues through data and finding ways to make complex research easier for people to understand. I believe effective data communication is not just about presenting numbers, but also about explaining what they mean and why they matter.
+
+::: {.about-feature-grid}
+
+::: {.about-feature}
+
+## <span class="feature-icon">📊</span> My Interests
+
+My academic interests include data analytics, statistical analysis, data visualisation, and evidence based communication. I particularly enjoy using visualisations and clear explanations to make research findings accessible to a wider audience.
+
+:::
+
+::: {.about-feature}
+
+## <span class="feature-icon">💻</span> My Skills
+
+I have experience using R, Excel, and Quarto for data analysis, visualisation, and communication. I am continuing to develop my skills in data storytelling, combining analytical thinking with clear and engaging communication.
+
+:::
+
+:::
+
+## About This Website
+
+Welcome to my personal data storytelling website!
+
+Here, I share insights from research and explore important issues through data. My blog focuses on communicating evidence in a clear, engaging, and visually informative way.
+
+My featured article examines healthcare associated infections in Germany and explores why counting infections alone does not always reveal their true impact on public health.
+

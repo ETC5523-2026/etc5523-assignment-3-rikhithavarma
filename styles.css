@@ -88,3 +88,73 @@ figcaption,
     padding: 14px;
   }
 }
+
+/* About Me portrait */
+.about-image {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 50%;
+  border: 4px solid #FFFFFF;
+  box-shadow: 0 5px 22px rgba(23, 50, 77, 0.13);
+}
+
+
+/* About page two-column layout */
+.about-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 36px;
+  margin: 35px auto;
+  max-width: 1000px;
+  text-align: left;
+}
+
+.about-feature {
+  padding: 12px;
+}
+
+.about-feature h2 {
+  color: #17324D;
+  font-size: 1.5rem;
+  border-bottom: none;
+  margin-top: 0;
+  text-align: left;
+}
+
+.about-feature p {
+  font-size: 1rem;
+  line-height: 1.7;
+  text-align: left;
+}
+
+/* Responsive mobile layout */
+@media (max-width: 768px) {
+  .about-feature-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+
+/* Teal icon accents */
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #DDF3F4;
+  border-radius: 50%;
+  font-size: 22px;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.about-feature h2 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
