@@ -1,4 +1,90 @@
-/* css styles */
-.navbar-dark, .quarto-title-banner {
-  background-color: #006DAE;
+
+/* ETC5523 - Personal Website Styling */
+
+/* Overall background and typography */
+body {
+  background-color: #F7FAFC;
+  color: #253547;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #17324D;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  border-bottom: 2px solid #087E8B;
+  padding-bottom: 8px;
+  margin-top: 1.8rem;
+}
+
+/* Links */
+a {
+  color: #087E8B;
+}
+
+a:hover {
+  color: #075967;
+  text-decoration: underline;
+}
+
+/* Navigation bar */
+.navbar {
+  border-bottom: 3px solid #087E8B;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+/* Blog listing cards */
+.quarto-post {
+  background-color: #FFFFFF;
+  border: 1px solid #E1E8EF;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 18px;
+}
+
+/* Tables */
+table {
+  background-color: #FFFFFF;
+}
+
+table th {
+  background-color: #E9F3F5;
+  color: #17324D;
+}
+
+/* Figure captions */
+figcaption,
+.figure-caption {
+  color: #526579;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Improve readability on smaller screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .quarto-post {
+    padding: 14px;
+  }
 }

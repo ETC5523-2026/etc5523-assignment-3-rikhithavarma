@@ -1,17 +1,25 @@
+
 project:
   type: website
 
 website:
-  title: "blog-template"
+  title: "Rikhitha Varma | Data Stories"
   navbar:
+    background: "#17324D"
+    foreground: "#FFFFFF"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About Me"
+        href: about.qmd
     right:
-      - about.qmd
       - icon: github
-        href: https://github.com/etc5523-2022
+        href: https://github.com/RikhithaVarma
+        aria-label: "My GitHub Profile"
+
 format:
   html:
     theme: cosmo
     css: styles.css
-
-
-
+    toc: true
+    linkcolor: "#087E8B"
