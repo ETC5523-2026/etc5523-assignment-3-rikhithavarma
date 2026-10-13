@@ -34,7 +34,7 @@ By looking beyond infection counts, we can better understand why the frequency o
 
 ### Where did the evidence come from?
 
-The findings come from a scientific study published by **Zacher and colleagues in 2019**, which examined the burden of healthcare-associated infections in Germany using hospital survey data collected in 2011–2012.
+The findings come from a 2019 scientific study by Zacher and colleagues, which estimated the health burden of five types of healthcare associated infections in Germany. The German estimates were based on hospital survey data collected in 2011, as part of a wider European survey conducted during 2011–2012.
 
 The researchers used a representative German survey involving **9,626 patients across 46 hospitals**, alongside additional German and European hospital data.
 
@@ -171,7 +171,7 @@ An estimated 16,245 deaths were attributable to these infections. The researcher
 
 These figures show why hospital infections are more than an issue of patient numbers. Their impact also includes premature deaths and the loss of years that people could otherwise have lived in good health.
 
-However, these estimates describe a historical period. They should not be interpreted as the current infection burden in Germany.
+**A significant caveat:** These figures are estimates, not a precise count of every infection or death in Germany. Researchers used hospital survey data from 2011 and statistical modelling to estimate the annual national burden, but the exact totals are uncertain. The findings are also historical and do not intend to be a description of the current situation in German hospitals.
 
 
 ## What can we learn?
@@ -184,12 +184,12 @@ These findings provide the answer to the question asked at the start of this art
 
 This underlines the importance of taking account of the number and the severity of the consequences of infections in assessing burden of disease for hospitals and public health researchers.
 
-The study conducted by **Zacher et al. (2019)** however, was from the last 12 years of history, 2011–2012. It is important that its estimates not be used as a description of current conditions, and the study does not provide any evidence on which prevention strategy would be best.
+The study by Zacher et al. (2019) used historical hospital data, with the German estimates based on 2011. These results should not be interpreted as the current infection burden in Germany. Furthermore, the study estimated the overall health burden rather than directly testing which infection prevention strategies would be most effective.
 
 **The big lesson**: Examining the number of infections is just one way of understanding health impacts that may not be apparent.
 
 
 ## Reference
 
-Zacher, B., Haller, S., Willrich, N., Walter, J., Abu Sin, M., Cassini, A., Pachoua, D., Suetens, C., Denk, A., Gastmeier, P., Wieler, L. H., & Eckmanns, T. (2019). Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012. *Eurosurveillance, 24*(46), 1900135. https://doi.org/10.2807/1560-7917.ES.2019.24.46.1900135
+Zacher, B., Haller, S., Willrich, N., Walter, J., Abu Sin, M., Cassini, A., Plachouras, D., Suetens, C., Behnke, M., Gastmeier, P., Wieler, L. H., & Eckmanns, T. (2019). Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012. Eurosurveillance, 24(46), 1900135. https://doi.org/10.2807/1560-7917.ES.2019.24.46.1900135
 
