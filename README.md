@@ -50,3 +50,17 @@ All the suggestions given were reviwed and worked on independently by me.
 Zacher, B., et al. (2019). Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012. Eurosurveillance, 24(46), 1900135.
 
 DOI: https://doi.org/10.2807/1560-7917.ES.2019.24.46.1900135
+
+
+## Published Website
+
+My personal Quarto website is publicly available at:
+
+
+## Published Website
+
+My personal Quarto website is publicly available at:
+
+https://etc5523-2026.github.io/etc5523-assignment-3-rikhithavarma/
+
+
