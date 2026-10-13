@@ -51,12 +51,6 @@ Zacher, B., et al. (2019). Application of a new methodology and R package reveal
 
 DOI: https://doi.org/10.2807/1560-7917.ES.2019.24.46.1900135
 
-
-## Published Website
-
-My personal Quarto website is publicly available at:
-
-
 ## Published Website
 
 My personal Quarto website is publicly available at:
