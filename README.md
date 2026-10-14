@@ -26,13 +26,7 @@ This blog is intended for university students and interested general readers who
 
 The website was created using:
 
- Quarto for website development and publishing
-
-
-## Published Website
-
-Website URL: To be added after publishing through GitHub Pages.
-
+- Quarto for website development and publishing
 - R and ggplot2 for data visualisation
 - CSS for custom styling and responsive design
 - Git and GitHub for version control
@@ -62,5 +56,6 @@ DOI: https://doi.org/10.2807/1560-7917.ES.2019.24.46.1900135
 My personal Quarto website is publicly available at:
 
 https://etc5523-2026.github.io/etc5523-assignment-3-rikhithavarma/
+
 
 
