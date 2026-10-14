@@ -1,0 +1,160 @@
+
+/* ETC5523 - Personal Website Styling */
+
+/* Overall background and typography */
+body {
+  background-color: #F7FAFC;
+  color: #253547;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #17324D;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  border-bottom: 2px solid #087E8B;
+  padding-bottom: 8px;
+  margin-top: 1.8rem;
+}
+
+/* Links */
+a {
+  color: #087E8B;
+}
+
+a:hover {
+  color: #075967;
+  text-decoration: underline;
+}
+
+/* Navigation bar */
+.navbar {
+  border-bottom: 3px solid #087E8B;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+/* Blog listing cards */
+.quarto-post {
+  background-color: #FFFFFF;
+  border: 1px solid #E1E8EF;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 18px;
+}
+
+/* Tables */
+table {
+  background-color: #FFFFFF;
+}
+
+table th {
+  background-color: #E9F3F5;
+  color: #17324D;
+}
+
+/* Figure captions */
+figcaption,
+.figure-caption {
+  color: #526579;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Improve readability on smaller screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .quarto-post {
+    padding: 14px;
+  }
+}
+
+/* About Me portrait */
+.about-image {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 50%;
+  border: 4px solid #FFFFFF;
+  box-shadow: 0 5px 22px rgba(23, 50, 77, 0.13);
+}
+
+
+/* About page two-column layout */
+.about-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 36px;
+  margin: 35px auto;
+  max-width: 1000px;
+  text-align: left;
+}
+
+.about-feature {
+  padding: 12px;
+}
+
+.about-feature h2 {
+  color: #17324D;
+  font-size: 1.5rem;
+  border-bottom: none;
+  margin-top: 0;
+  text-align: left;
+}
+
+.about-feature p {
+  font-size: 1rem;
+  line-height: 1.7;
+  text-align: left;
+}
+
+/* Responsive mobile layout */
+@media (max-width: 768px) {
+  .about-feature-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+
+/* Teal icon accents */
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #DDF3F4;
+  border-radius: 50%;
+  font-size: 22px;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.about-feature h2 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
